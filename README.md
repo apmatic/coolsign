@@ -29,7 +29,7 @@ The Coolsign Android app is available here as an apk file ready to be installed.
 
 ### Configuration
 
-In the Coolsign app **Settings** page the login credentials must be specified. In a production environment the **Hostname** is usually something like https://odoo.companyname.com. If you are a developer and Odoo is running on your developer box, a typical Hostname resembles http://192.168.1.2:8069.
+In the Coolsign app **Settings** page the login credentials must be specified. In a production environment the **Hostname** is usually something like `https://odoo.companyname.com`. If you are a developer and Odoo is running on your developer box, use the LAN IP followed by the port, for example `http://192.168.1.2:8069`.
 
 Also, login and password of the user related to the employee is needed in order to establish a connection to Odoo - employees without the associated user cannot connect to Odoo. Remember that, instead of the password, you can use an API key: create one from **Account Security** of your Odoo Profile.
 
