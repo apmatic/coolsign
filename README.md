@@ -36,3 +36,7 @@ Also, login and password of the user related to the employee is needed in order 
 ![coolsign-odoo-my-profile](https://github.com/apmatic/coolsign/assets/168338449/9a91b471-5cb8-473f-ade7-b8d7ad05b5b4)
 
 ![coolsign-odoo-api-key](https://github.com/apmatic/coolsign/assets/168338449/d16a51d7-28a8-4a8f-baf3-1cfb37947cca)
+
+## Contact
+
+If you have any questions feel free to write to apmatic@outlook.it.
