@@ -13,7 +13,7 @@ The second one, **Coolsign App ID**, records the ID which uniquely identifies th
 
 ## Coolsign Android app
 
-The Coolsign Android app is available here as an apk file ready to be installed. Three screenshots of the app follow:
+The Coolsign Android app is available in this repository as an apk file ready to be installed. Three screenshots of the app follow:
 
 ### Main page
 
@@ -36,6 +36,8 @@ Also, login and password of the user related to the employee is needed in order 
 ![coolsign-odoo-my-profile](https://github.com/apmatic/coolsign/assets/168338449/9a91b471-5cb8-473f-ade7-b8d7ad05b5b4)
 
 ![coolsign-odoo-api-key](https://github.com/apmatic/coolsign/assets/168338449/d16a51d7-28a8-4a8f-baf3-1cfb37947cca)
+
+Finally, on smartphones with Android 12+, make sure that in the location permission of the Coolsign app the **Use precise location** option is on.
 
 ## Contact
 
