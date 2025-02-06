@@ -19,6 +19,6 @@
     'depends': ['hr'],
     'data': ['views/hr_employee.xml'],
     'demo': [],
-    'images': ['static/description/banner.jpg'],
+    'images': ['static/description/banner.png'],
     'license': 'LGPL-3'
 }
