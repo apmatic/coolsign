@@ -1,0 +1,33 @@
+<!doctype html>
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+<title>Coolsign</title>
+<link rel="stylesheet" href="markdown.css">
+</head>
+<body>
+<h1 id="coolsign">Coolsign</h1>
+<p>Coolsign is a free solution for employee attendance in <a href="https://www.odoo.com/">Odoo</a> 17. Using it, an employee can easily check in and out using his or her smartphone, and the detected location will be saved in the attendance record. Coolsign consists of a backend part, the hr_coolsign custom module, and a frontend one, an Android app.</p>
+<h2 id="odoo-custom-module">Odoo custom module</h2>
+<p><img src="module.png" alt="coolsign-odoo-module"></p>
+<p>The custom module, once installed, creates a Coolsign tab in the employee form, containing two fields. With the first, <strong>Enable Coolsign App</strong>, the HR Manager can enable or disable the use of the app for that employee.
+The second one, <strong>Coolsign App ID</strong>, records the ID which uniquely identifies the smartphone. If the employee configured the app on another smartphone, the ID would change so only one smartphone can be used by the employee at any given time.</p>
+<p><img src="employee.png" alt="coolsign-odoo-employee"></p>
+<h2 id="coolsign-android-app">Coolsign Android app</h2>
+<p>The Coolsign Android app is available in this repository as an apk file ready to be installed. Three screenshots of the app follow:</p>
+<h3 id="main-page">Main page</h3>
+<p><img src="app-main.png" alt="coolsign-main-border"></p>
+<h3 id="map-page">Map page</h3>
+<p><img src="app-map.png" alt="coolsign-map-border"></p>
+<h3 id="settings-page">Settings page</h3>
+<p><img src="app-settings.png" alt="coolsign-settings-border"></p>
+<h3 id="configuration">Configuration</h3>
+<p>In the Coolsign app <strong>Settings</strong> page the login credentials must be specified. In a production environment the <strong>Hostname</strong> is usually something like <code>https://odoo.companyname.com</code>. If you are a developer and Odoo is running on your developer box, use the LAN IP followed by the port, for example <code>http://192.168.1.2:8069</code>.</p>
+<p>Also, login and password of the user related to the employee is needed in order to establish a connection to Odoo - employees without the associated user cannot connect to Odoo. Remember that, instead of the password, you can use an API key: create one from <strong>Account Security</strong> of your Odoo Profile.</p>
+<p><img src="profile.png" alt="coolsign-odoo-my-profile"></p>
+<p><img src="key.png" alt="coolsign-odoo-api-key"></p>
+<p>Finally, on smartphones with Android 12+, make sure that in the location permission of the Coolsign app the <strong>Use precise location</strong> option is on.</p>
+<h2 id="contact">Contact</h2>
+<p>If you have any questions feel free to write to apmatic@outlook.it.</p>
+</head>
+</html>
