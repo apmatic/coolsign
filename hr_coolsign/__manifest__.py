@@ -15,10 +15,10 @@
     'author': 'Apmatic',
     'website': 'https://github.com/apmatic/coolsign',
     'category': 'Human Resources',
-    'version': '17.0.1.0.0',
+    'version': '17.0.1.0.1',
     'depends': ['hr'],
     'data': ['views/hr_employee.xml'],
     'demo': [],
-    'images': ['static/description/banner.jpg'],
+    'images': ['static/description/banner.png'],
     'license': 'LGPL-3'
 }
