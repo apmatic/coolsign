@@ -14,7 +14,7 @@
     """,
     'author': 'Apmatic',
     'website': 'https://github.com/apmatic/coolsign',
-    'category': 'Human Resources',
+    'category': 'Generic Modules/Human Resources',
     'version': '17.0.1.0.1',
     'depends': ['hr'],
     'data': ['views/hr_employee.xml'],
